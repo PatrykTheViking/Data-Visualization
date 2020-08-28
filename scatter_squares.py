@@ -18,4 +18,4 @@ ax.set_ylabel("Square values", fontsize=14)
 ax.axis([0, 1100, 0, 1100000])
 
 plt.show()
-# plt.savefig('squares_plot.png', bbox_inches='tight') - optional for a direct save
+# plt.savefig('scatter_squares.png', bbox_inches='tight') - optional for a direct save

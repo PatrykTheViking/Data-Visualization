@@ -6,4 +6,6 @@ This project involves exploring data through visual representations
 
 # Random Walk
 
-# Dice roll analysis
+# Dice roll Analysis
+
+# High and Low Temperature Visualization 

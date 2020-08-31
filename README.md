@@ -9,3 +9,5 @@ This project involves exploring data through visual representations
 # Dice roll Analysis
 
 # High and Low Temperature Visualization 
+
+# Data Sets Mapping

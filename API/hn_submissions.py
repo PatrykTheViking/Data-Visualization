@@ -8,7 +8,7 @@ querystring = {"print": "pretty"}
 
 headers = {
     'x-rapidapi-host': "community-hacker-news-v1.p.rapidapi.com",
-    'x-rapidapi-key': "7fafa6c3c7mshe7f6176591e3223p1ca392jsnd6362f79993f"
+    'x-rapidapi-key': ""
     }
 
 r = requests.get(url, headers=headers, params=querystring)
@@ -23,7 +23,7 @@ for submissions_id in submissions_ids[:5]:
 
     headers = {
         'x-rapidapi-host': "community-hacker-news-v1.p.rapidapi.com",
-        'x-rapidapi-key': "7fafa6c3c7mshe7f6176591e3223p1ca392jsnd6362f79993f"
+        'x-rapidapi-key': ""
         }
 
     r = requests.get(url, headers=headers, params=querystring)
@@ -44,4 +44,4 @@ submissions_dicts = sorted(submissions_dicts, key=itemgetter('score'), reverse=T
 for submission_dict in submissions_dicts:
     print("Article title: {}". format(submission_dict['title']))
     print("URL: {}".format(submission_dict['url']))
-    print("Score: {}". format(submission_dict['score']))
+    print("Score: {}\n". format(submission_dict['score']))
